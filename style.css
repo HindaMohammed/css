@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+nav{
+    margin-right:50px ;
+    margin-left:50px ;
+    height: 20px;
+}
+nav ul a {
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    color: #999999;  
+}
+nav ul a:hover{
+    color: #ffa5b2;
+}
+
+ nav  ul #name{
+    float: left;
+    color: black;
+}
+#intro{
+    text-align: center;
+    background-image: url(image.jpg);
+    background-size: cover;
+    opacity: 1;
+    min-height: 530px;
+    color: black;
+    
+}
+#intro h5{
+    padding-top: 12%;
+    font-weight: bold;}
+#intro h1{
+    font-weight: bold;
+}
+#intro a{
+    text-decoration: none; 
+    background-color: #ffa5b2;
+    color: black;
+    padding: 10px;
+    border-radius: 1px;
+}
+
